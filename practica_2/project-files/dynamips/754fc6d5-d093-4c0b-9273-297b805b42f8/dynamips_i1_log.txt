@@ -1,0 +1,21 @@
+Sep 01 14:51:11.989 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 01 14:51:11.990 HYPERVISOR: Started on IP = localhost, TCP port = 53569.
+Sep 01 14:51:12.034 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 01 14:51:12.035 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Richi\GNS3\projects\practica_2\project-files\dynamips 
+Sep 01 14:51:12.041 GENERAL: working_dir=C:\Users\Richi\GNS3\projects\practica_2\project-files\dynamips
+Sep 01 14:51:12.042 HYPERVISOR: exec_cmd: ethsw create Finanzas 
+Sep 01 14:51:14.262 HYPERVISOR: exec_cmd: nio create_udp udp-4d006bd7-f559-4e35-9c1e-eeaf809926bc 10001 127.0.0.1 10000 
+Sep 01 14:51:14.263 HYPERVISOR: exec_cmd: ethsw add_nio Finanzas udp-4d006bd7-f559-4e35-9c1e-eeaf809926bc 
+Sep 01 14:51:14.269 HYPERVISOR: exec_cmd: ethsw set_access_port Finanzas udp-4d006bd7-f559-4e35-9c1e-eeaf809926bc 1 
+Sep 01 14:51:14.412 HYPERVISOR: exec_cmd: nio create_udp udp-adca7196-c851-4caf-9dc0-b44c80973ac7 10012 127.0.0.1 10013 
+Sep 01 14:51:14.412 HYPERVISOR: exec_cmd: ethsw add_nio Finanzas udp-adca7196-c851-4caf-9dc0-b44c80973ac7 
+Sep 01 14:51:14.415 HYPERVISOR: exec_cmd: ethsw set_access_port Finanzas udp-adca7196-c851-4caf-9dc0-b44c80973ac7 1 
+Sep 01 14:51:14.458 HYPERVISOR: exec_cmd: nio create_udp udp-77090692-54fe-4d39-84c8-ef13b45531f8 10014 127.0.0.1 10015 
+Sep 01 14:51:14.459 HYPERVISOR: exec_cmd: ethsw add_nio Finanzas udp-77090692-54fe-4d39-84c8-ef13b45531f8 
+Sep 01 14:51:14.477 HYPERVISOR: exec_cmd: ethsw set_access_port Finanzas udp-77090692-54fe-4d39-84c8-ef13b45531f8 1 
+Sep 01 19:13:56.451 HYPERVISOR: exec_cmd: nio bind_filter udp-4d006bd7-f559-4e35-9c1e-eeaf809926bc 2 capture 
+Sep 01 19:13:56.451 HYPERVISOR: exec_cmd: nio setup_filter udp-4d006bd7-f559-4e35-9c1e-eeaf809926bc 2 en10mb C:\Users\Richi\GNS3\projects\practica_2\project-files\captures\Router_FastEthernet00_to_Finanzas_Ethernet0.pcap 
+Sep 01 20:03:40.748 HYPERVISOR: exec_cmd: ethsw delete Finanzas 
+Sep 01 20:03:40.799 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 01 20:03:40.880 HYPERVISOR: Stopped.
+Sep 01 20:03:40.880 GENERAL: reset done.
